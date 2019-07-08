@@ -1,0 +1,22 @@
+{
+  "name": "relicrsa/rabbitmqrpc",
+  "description": "Remote procedure call for Rabbit MQ",
+  "type": "package",
+  "authors": [
+    {
+      "name": "Werner van Ghent",
+      "email": "werner@vanghent.co.za"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1.1",
+    "ext-json": "*",
+    "enqueue/amqp-lib": "0.9.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ReLiCRSA\\": "src/"
+    }
+  }
+}
